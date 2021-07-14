@@ -80,7 +80,7 @@ class Login extends Component {
                             <div className="row justify-content-center my-auto">
                                 <div className="col-md-8 col-10 my-5">
                                     <div className="row justify-content-center px-3 mb-3"> <img id="logo" src="https://i.graphicmama.com/blog/wp-content/uploads/2020/10/30131032/P-amazing-3D-logo-design-concept-in-20211.jpg" alt="logo"></img> </div>
-                                    <h3 className="mb-5 text-center heading">We are BCW</h3>
+                                    <h3 className="mb-5 text-center heading">We are Freshland dairy</h3>
                                     <h6 className="msg-info">Please login to your account</h6>
                                     {this.state.LoginFail && <div className="alert alert-warning">Invalid Credentials</div>}
                                     <div className="form-group"> <label className="form-control-label text-muted">Username</label> <input type="text" id="email" name="username" placeholder="Username" className="form-control" value={this.state.username} onChange={this.handleChange} /></div>
